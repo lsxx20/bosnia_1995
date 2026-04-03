@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>波赫最重要的一年：1995</title>
+<link rel="stylesheet" href="data:text/css,">
+<style>
+@font-face { font-family: 'NotoSerifTC'; src: local('Noto Serif CJK TC'); font-weight: 400; }
+@font-face { font-family: 'NotoSerifTC'; src: local('Noto Serif CJK TC'); font-weight: 700; }
+@font-face { font-family: 'NotoSansTC'; src: local('Noto Sans CJK TC'); font-weight: 400; }
+@font-face { font-family: 'NotoSansTC'; src: local('Noto Sans CJK TC'); font-weight: 700; }
+:root {
+  --ink: #1a1a1a;
+  --paper: #faf8f4;
+  --accent: #8b2500;
+  --muted: #6b6b6b;
+  --rule: #d4c9b8;
+  --highlight: #f5efe6;
+  --caption: #888;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.9;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 60px 24px 100px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding-bottom: 48px;
+  border-bottom: 3px double var(--rule);
+  margin-bottom: 48px;
+}
+
+.header .kicker {
+  font-size: 13px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 1.3;
+  margin-bottom: 16px;
+  color: var(--ink);
+}
+
+.header .subtitle {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 20px;
+  color: var(--muted);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.header .byline {
+  margin-top: 24px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.header .byline strong { color: var(--ink); }
+
+/* Body text */
+.body-text {
+  font-size: 17px;
+  line-height: 2;
+  text-align: justify;
+  margin-bottom: 28px;
+}
+
+.body-text.first-para::first-letter {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 64px;
+  float: left;
+  line-height: 1;
+  margin-right: 8px;
+  margin-top: 6px;
+  color: var(--accent);
+  font-weight: 900;
+}
+
+/* Section headers */
+h2 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 56px 0 24px;
+  color: var(--ink);
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--rule);
+}
+
+h3 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 36px 0 16px;
+  color: var(--accent);
+}
+
+/* Timeline */
+.timeline {
+  position: relative;
+  padding-left: 32px;
+  margin: 36px 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--rule);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 24px;
+  padding-bottom: 8px;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -28px;
+  top: 8px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--rule);
+  border: 2px solid var(--paper);
+}
+
+.timeline-item.highlight::before {
+  background: var(--accent);
+  width: 14px;
+  height: 14px;
+  left: -30px;
+  top: 6px;
+}
+
+.timeline-year {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--accent);
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.timeline-item.highlight .timeline-year {
+  font-size: 22px;
+}
+
+.timeline-desc {
+  font-size: 15px;
+  color: var(--ink);
+  line-height: 1.7;
+}
+
+/* Pullquote */
+.pullquote {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 22px;
+  line-height: 1.7;
+  color: var(--accent);
+  border-left: 4px solid var(--accent);
+  padding: 16px 0 16px 28px;
+  margin: 40px 0;
+  font-weight: 400;
+}
+
+.pullquote cite {
+  display: block;
+  font-size: 14px;
+  color: var(--muted);
+  margin-top: 10px;
+  font-style: normal;
+}
+
+/* Image figure */
+figure {
+  margin: 40px 0;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 2px;
+}
+
+figcaption {
+  font-size: 13px;
+  color: var(--caption);
+  margin-top: 8px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Reasons box */
+.reason-box {
+  background: var(--highlight);
+  padding: 32px;
+  margin: 36px 0;
+  border-left: 4px solid var(--accent);
+}
+
+.reason-box h4 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 18px;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+
+.reason-box p {
+  font-size: 15px;
+  line-height: 1.9;
+  margin-bottom: 12px;
+}
+.reason-box p:last-child { margin-bottom: 0; }
+
+/* References */
+.references {
+  margin-top: 60px;
+  padding-top: 32px;
+  border-top: 3px double var(--rule);
+}
+
+.references h2 {
+  border: none;
+  margin-top: 0;
+  padding-bottom: 8px;
+}
+
+.ref-section {
+  margin-bottom: 28px;
+}
+
+.ref-section h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+
+.ref-item {
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  text-indent: -20px;
+  color: var(--ink);
+}
+
+.ref-item a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+}
+.ref-item a:hover { border-color: var(--accent); }
+
+/* Separator */
+.sep {
+  text-align: center;
+  margin: 48px auto;
+  width: 60px;
+  height: 1px;
+  background: var(--rule);
+  border: none;
+  font-size: 0;
+  letter-spacing: 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .header h1 { font-size: 28px; }
+  .header .subtitle { font-size: 17px; }
+  .pullquote { font-size: 18px; }
+  .container { padding: 32px 16px 60px; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header class="header">
+  <h1>波赫最重要的一年：1995</h1>
+  <div class="subtitle">從斯雷布雷尼察的灰燼到岱頓的談判桌——<br>一個國家如何在毀滅與重生之間被重新定義</div>
+  <div class="byline">
+    地理二　李思憲　B13208013
+  </div>
+</header>
+
+<p class="body-text first-para">一九九五年七月十一日，波士尼亞東部小鎮斯雷布雷尼察（Srebrenica）陷落。聯合國曾宣告這裡是「安全區」，但荷蘭維和部隊眼睜睜看著塞族共和國軍隊將超過八千名波士尼亞穆斯林男性與男孩帶走，隨後在數天之內系統性地處決他們。四個月後，一九九五年十一月二十一日，在美國俄亥俄州岱頓（Dayton）的萊特—帕特森空軍基地，波赫總統伊澤特貝戈維奇（Alija Izetbegović）、塞爾維亞總統米洛塞維奇（Slobodan Milošević）與克羅埃西亞總統圖季曼（Franjo Tuđman）草簽了《岱頓和平協議》（Dayton Peace Agreement），結束了三年半的波士尼亞戰爭。這一年，波赫經歷了二戰以來歐洲最慘烈的種族滅絕，也迎來了一紙定義其未來三十年國家形態的和平協議。沒有任何一個年份比1995年更能代表這個國家的命運轉折。</p>
+
+<figure>
+  <img src="bosnia_pic/mostar.jpg" alt="莫斯塔爾古橋" style="width:100%;border-radius:2px;">
+  <figcaption>莫斯塔爾古橋（Stari Most）——1993年戰爭中被炸毀，2004年在 UNESCO 主導下以原始石材重建，成為波赫和解與國際合作的象徵。圖片來源：Wikimedia Commons</figcaption>
+</figure>
+
+<h2>一、波赫發展時間軸</h2>
+
+<p class="body-text">在進入1995年的深入分析之前，有必要先勾勒波赫漫長而曲折的歷史輪廓。波赫地處巴爾幹半島西部，千年來一直是文明板塊的碰撞地帶——東西羅馬帝國的分界線穿過這裡，鄂圖曼帝國與哈布斯堡王朝在此角力，東正教、天主教與伊斯蘭教在這片土地上交織共生。這種多元性既是波赫的文化財富，也是其政治脆弱性的根源。</p>
+
+<div class="timeline">
+  <div class="timeline-item">
+    <span class="timeline-year">1377年</span>
+    <span class="timeline-desc">特弗爾特科一世（Tvrtko I）建立波士尼亞王國，波赫歷史上第一個獨立國家實體，一度成為西巴爾幹最強盛的政權。</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-year">1463年</span>
+    <span class="timeline-desc">鄂圖曼帝國征服波士尼亞，開啟長達四百餘年的統治。伊斯蘭教傳入，深刻改變了當地社會結構與人口組成。</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-year">1878年</span>
+    <span class="timeline-desc">柏林會議後，奧匈帝國接管波赫。1908年正式吞併，引發國際危機，為一戰埋下伏筆。</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-year">1914年</span>
+    <span class="timeline-desc">波士尼亞塞族青年普林西普（Gavrilo Princip）在塞拉耶佛刺殺奧匈帝國皇儲，直接引爆第一次世界大戰。</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-year">1918年</span>
+    <span class="timeline-desc">波赫加入「塞爾維亞人、克羅埃西亞人和斯洛維尼亞人王國」，後更名為南斯拉夫王國。波赫的獨立身份被消解。</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-year">1946年</span>
+    <span class="timeline-desc">二戰後，波赫成為南斯拉夫社會主義聯邦共和國的六個加盟共和國之一，在狄托（Tito）體制下維持了數十年相對穩定的多民族共存。</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-year">1992年</span>
+    <span class="timeline-desc">波赫宣布獨立，波士尼亞戰爭隨即爆發。塞族武裝發動「族群清洗」，塞拉耶佛遭到長達近四年的圍城。</span>
+  </div>
+  <div class="timeline-item highlight">
+    <span class="timeline-year">1995年</span>
+    <span class="timeline-desc">斯雷布雷尼察大屠殺發生（七月）；北約發動「蓄意武力行動」（Operation Deliberate Force）轟炸塞族陣地（八—九月）；《岱頓和平協議》簽署（十一月），戰爭結束。波赫被重塑為由「波赫聯邦」與「塞族共和國」組成的雙實體國家。</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-year">2022年</span>
+    <span class="timeline-desc">歐盟正式授予波赫「候選國」地位，開啟入盟談判的前期程序，但改革進展緩慢。</span>
+  </div>
+</div>
+
+<div class="sep"></div>
+
+<h2>二、為什麼是1995年？</h2>
+
+<p class="body-text">對於波赫來說重要的年份，1914年的槍聲震動全球，1992年的獨立宣言引爆內戰。但唯有1995年，同時濃縮了這個國家最黑暗的深淵與最關鍵的轉折。以下從三個面向闡述選擇這一年份的理由。</p>
+
+<div class="reason-box">
+  <h4>理由一：斯雷布雷尼察種族滅絕——二戰後歐洲最嚴重的暴行</h4>
+  <p>1995年七月，波士尼亞塞族軍隊在拉特科・姆拉迪奇（Ratko Mladić）將軍指揮下攻入聯合國「安全區」斯雷布雷尼察，將超過八千名波斯尼亞克（Bosniak）男性與男孩系統性屠殺，另有兩萬五千名婦孺被強制驅逐。前聯合國秘書長安南（Kofi Annan）後來承認，這場悲劇暴露了國際社會在面對暴行時的集體失能。國際刑事法庭（ICTY）與國際法院（ICJ）先後裁定此事件構成「種族滅絕」，至今已有五十四人被定罪。斯雷布雷尼察不僅是波赫國家記憶的核心傷痕，更深刻重塑了國際社會對「保護責任」（R2P）的理解。2024年，聯合國大會正式將每年七月十一日定為「斯雷布雷尼察種族滅絕反思與紀念國際日」。</p>
+</div>
+
+<figure>
+  <img src="bosnia_pic/srebrenica.jpg" alt="斯雷布雷尼察紀念墓園" style="width:100%;border-radius:2px;">
+  <figcaption>斯雷布雷尼察—波托查里紀念墓園——超過六千六百名經 DNA 鑑定的受害者長眠於此，白色墓碑綿延山坡。圖片來源：Wikimedia Commons</figcaption>
+</figure>
+
+<div class="reason-box">
+  <h4>理由二：《岱頓和平協議》——終結戰爭，卻也凍結了分裂</h4>
+  <p>斯雷布雷尼察的震撼與北約隨後的軍事介入，終於迫使各方走上談判桌。1995年十一月在美國岱頓經過二十一天密集談判後達成的和平協議，結束了造成約十萬人死亡、兩百萬人流離失所的戰爭。然而，這份協議也創造了一套極其複雜的政治架構——波赫被分為兩個「實體」（entity），配備十三個政府、十三位總理、一百三十六個部會級機構，以及一套基於民族配額的三人輪值總統制。學者Richard Caplan在其2000年發表於《Diplomacy & Statecraft》的論文中指出，岱頓協議雖然成功止戰，卻在結構上存在嚴重弱點，將族群清洗的結果制度化。三十年來，波赫一直在岱頓體制的框架內掙扎——它既是和平的保障，也是政治癱瘓的根源。</p>
+</div>
+
+<div class="reason-box">
+  <h4>理由三：國際干預模式的典範轉移</h4>
+  <p>1995年標誌著國際社會對巴爾幹危機的態度發生根本性轉變。在此之前，聯合國維和行動以消極中立為原則，結果是眼睜睜看著「安全區」淪陷。斯雷布雷尼察的教訓直接促使北約從維和轉向強制和平（peace enforcement），八月至九月發動的「蓄意武力行動」對塞族軍事目標進行大規模空襲，從根本上改變了戰場態勢。這一轉變不僅結束了波赫戰爭，更為日後科索沃（1999年）乃至利比亞（2011年）的國際軍事干預提供了先例。波赫的1995年，實質上重新定義了冷戰後國際社會面對人道危機時的行為準則。</p>
+</div>
+
+<div class="pullquote">
+  「岱頓框架允許國際社會從制度建構、能力建設，進展到認同建構——將波赫放上前往布魯塞爾的道路。」
+  <cite>——Wolfgang Petritsch，前波赫高級代表，2006年</cite>
+</div>
+
+<div class="sep"></div>
+
+<h2>三、新聞佐證</h2>
+
+<p class="body-text">以下五則報導與聲明，分別從不同時間點回望或記錄了這一年的重大事件。</p>
+
+<h3>新聞一：Human Rights Watch 調查報告（1995年10月）</h3>
+<p class="body-text">人權觀察組織（Human Rights Watch）於1995年10月發布題為〈The Fall of Srebrenica and the Failure of UN Peacekeeping〉的調查報告，根據其代表在七月底至八月底的實地調查，詳細記錄了塞族部隊進入安全區後對平民進行系統性處決、毆打、強暴及強制驅逐的暴行。報告直指聯合國維和體系的結構性失敗，並呼籲國際社會追究指揮鏈上各層級的責任。這份報告是最早系統揭露斯雷布雷尼察真相的重要文獻之一。<br><small>來源：Human Rights Watch, "Bosnia-Hercegovina: The Fall of Srebrenica and the Failure of UN Peacekeeping," October 15, 1995. <a href="https://www.hrw.org/report/1995/10/15/fall-srebrenica-and-failure-un-peacekeeping/bosnia-and-herzegovina" target="_blank">https://www.hrw.org/report/1995/10/15/...</a></small></p>
+
+<h3>新聞二：PBS News 報導——斯雷布雷尼察三十週年紀念（2025年7月）</h3>
+<p class="body-text">2025年七月十一日，PBS News 報導了數千人從波赫各地及世界各國聚集斯雷布雷尼察，紀念大屠殺三十週年的場景。「雪布尼察母親」協會主席穆尼拉・蘇巴希奇（Munira Subašić）在紀念儀式上呼籲歐洲「醒來」，指出當年她失去了丈夫、幼子及超過二十名親人。報導也提及，塞族共和國與塞爾維亞至今仍拒絕承認斯雷布雷尼察事件構成種族滅絕。<br><small>來源：PBS NewsHour / AP, "Thousands gather in Srebrenica on 30th anniversary of Europe's only acknowledged genocide since WWII," July 11, 2025. <a href="https://www.pbs.org/newshour/world/thousands-gather-in-srebrenica-on-30th-anniversary-of-europes-only-acknowledged-genocide-since-wwii" target="_blank">https://www.pbs.org/newshour/...</a></small></p>
+
+<h3>新聞三：國際特赦組織聲明（2025年7月）</h3>
+<p class="body-text">在三十週年前夕，國際特赦組織（Amnesty International）發表聲明指出，儘管國際法院已明確裁定斯雷布雷尼察構成種族滅絕，但該地區高級官員持續否認罪行並美化戰犯的行為，對受害者家屬造成深重的二次傷害。聲明強調，否認種族滅絕不僅是對受害者的侮辱，更是對國際法院判決的公然否定。<br><small>來源：Amnesty International, "Bosnia and Herzegovina: 30th anniversary of Srebrenica massacre 'a painful reminder from history'," July 10, 2025. <a href="https://www.amnesty.org/en/latest/news/2025/07/bosnia-and-herzegovina-30th-anniversary-of-srebrenica-massacre-a-painful-reminder-from-history/" target="_blank">https://www.amnesty.org/...</a></small></p>
+
+<h3>新聞四：The Conversation 評論——岱頓協議三十年（2025年11月）</h3>
+<p class="body-text">學者 Adis Maksić 在《The Conversation》撰文回顧岱頓協議三十年，指出這份協議雖然成功阻止了戰爭復發，並使超過一百萬人得以行使返鄉權利，但「少數族群返鄉」（minority returns）的成效極為有限——許多返鄉者最終選擇出售老家房產，搬到同族群聚居的區域。跨族群信任在戰爭中被徹底摧毀，岱頓體制下的政治僵局又不斷加深這道裂痕。作者形容岱頓是一個「不漂亮但也不算最糟」的和平協議。<br><small>來源：Adis Maksić, "The Dayton Peace Accords at 30: An ugly peace that has prevented a return to war over Bosnia," The Conversation, November 19, 2025. <a href="https://theconversation.com/the-dayton-peace-accords-at-30-an-ugly-peace-that-has-prevented-a-return-to-war-over-bosnia-268424" target="_blank">https://theconversation.com/...</a></small></p>
+
+<h3>新聞五：歐盟授予波赫候選國地位（2022年12月）</h3>
+<p class="body-text">2022年12月15日，歐洲理事會一致通過授予波赫歐盟候選國地位。歐盟外交代表波瑞爾（Josep Borrell）表示，這是向波赫人民傳遞的訊號——他們的未來在歐盟之中。然而，歐盟執委會同時列出十四項關鍵優先改革，涵蓋司法獨立、反貪腐、媒體自由等領域。三十年前岱頓協議所建立的族群配額制度，恰恰是這些改革最大的結構性障礙。候選國地位的象徵意義遠大於實質進展，但它至少說明了一件事：1995年所奠定的政治框架，至今仍然是波赫前行的起點與瓶頸。<br><small>來源：EEAS, "EU Candidate Status for Bosnia and Herzegovina: a message to the people and a tasking for politicians," December 2022. <a href="https://www.eeas.europa.eu/eeas/eu-candidate-status-bosnia-and-herzegovina-message-people-and-tasking-politicians-0_en" target="_blank">https://www.eeas.europa.eu/...</a></small></p>
+
+<div class="sep"></div>
+
+<h2>四、與 AI 的對話反思</h2>
+
+<p class="body-text">這份報告的寫作過程中，我確實以 AI 作為研究助手——用它搜索文獻、比對事件時間線、確認引用出處。但我也深刻意識到，AI 助手有可能成為劣質報導的幫兇。舉例來說，當我最初詢問「波赫最重要的年份」時，AI 幾乎是條件反射式地推薦了1995年——這當然是合理的答案，但如果記者不加思索地接受，就會錯失一個關鍵的追問機會：「重要」對誰而言？對波斯尼亞克社群來說，1995年是倖存與被滅絕之間的分水嶺；但對塞族共和國的政治菁英而言，岱頓反而是他們確保實體自治的勝利。一個「好助手」提供材料，但只有記者自己能做出判斷——這份報告選擇站在受害者的記憶與國際法的裁決這一邊。</p>
+
+<p class="body-text">同樣值得警惕的是 AI 在處理敏感歷史議題時的「兩面討好」傾向。當我請求分析岱頓協議的功過時，AI 傾向於給出一個均衡的「既有成就也有不足」的答案。這種均衡在學術語境中或許恰當，但在新聞報導中可能構成一種道德模糊——當我們談論八千人被系統性屠殺，「均衡」本身就是一種立場的缺席。好的記者知道何時需要判斷力，而不僅僅是資訊整合力。</p>
+
+<p class="body-text">此外，AI 提供的引用資訊也需要人工逐一驗證。在本文的撰寫過程中，我針對每一則新聞與每一篇學術論文都進行了出處確認——包括期刊名稱、卷期號碼、作者資訊和可訪問的網址。這是一位負責任的記者應有的基本素養，而不是可以外包給任何工具的環節。</p>
+
+<div class="pullquote">
+  「斯雷布雷尼察的悲劇將永遠纏繞著聯合國的歷史……我們無法挽回這場悲劇，但至關重要的是必須汲取正確的教訓，並將其應用於未來。」
+  <cite>——Kofi Annan，前聯合國秘書長，1999年內部檢討報告</cite>
+</div>
+
+<figure>
+  <img src="bosnia_pic/rose.jpg" alt="塞拉耶佛玫瑰" style="width:100%;max-width:500px;display:block;margin:0 auto;border-radius:2px;">
+  <figcaption>「塞拉耶佛玫瑰」——圍城期間迫擊砲彈在人行道上炸出的彈坑，戰後被填入紅色樹脂，標記至少三人罹難的地點。圖片來源：Wikimedia Commons</figcaption>
+</figure>
+
+<h2>五、結語</h2>
+
+<p class="body-text">2025年七月，當數千人再次聚集在斯雷布雷尼察的白色墓碑群中，波赫仍然是一個被1995年定義的國家。岱頓協議構建的雙實體結構運轉了三十年，既阻止了戰爭重燃，也阻礙了國家的有效治理。歐盟候選國地位帶來了希望，但十四項改革條件中的每一項，都直指岱頓體制的核心矛盾——一個建立在族群分權基礎上的國家，如何走向公民權利的平等？</p>
+
+<p class="body-text">學者 Roberto Belloni 與 Aleksandar Zdeb 在2025年出版的研究中提出了「非自由式協合民主」（illiberal consociationalism）的概念，指出岱頓體制不僅固化了族群界線，更在實踐中侵蝕了不屬於三個「建構民族」之個人的基本權利。波赫的困境，從來不僅僅是「戰後重建」的技術問題，而是關於一個深度分裂社會能否在不忘卻歷史的前提下，找到共同前行之路的根本追問。</p>
+
+<p class="body-text">1995年給波赫留下了兩份遺產：一份是刻在斯雷布雷尼察六千餘座白色墓碑上的記憶，另一份是寫在岱頓協議附件四中的憲法。它們共同構成了這個國家的底色——在悲劇與妥協之間，在記憶與前行之間，波赫至今仍在尋找自己的路。</p>
+
+<div class="references">
+  <h2>參考文獻</h2>
+
+  <div class="ref-section">
+    <p class="ref-item">[1] Caplan, R. (2000). Assessing the Dayton Accord: The Structural Weaknesses of the General Framework Agreement for Peace in Bosnia and Herzegovina. <em>Diplomacy & Statecraft</em>, 11(2), 213–232. <a href="https://doi.org/10.1080/09592290008406163" target="_blank">https://doi.org/10.1080/09592290008406163</a></p>
+    <p class="ref-item">[2] Belloni, R. & Zdeb, A. (2025). Consociationalism in Bosnia-Herzegovina: How to Build an Illiberal State. In Preljević, H. et al. (Eds.), <em>Shifting Paradigms</em>. Palgrave Macmillan. <a href="https://doi.org/10.1007/978-3-031-94370-6_2" target="_blank">https://doi.org/10.1007/978-3-031-94370-6_2</a></p>
+    <p class="ref-item">[3] Keil, S. & Hulsey, J. (2026). Dayton at 30: Unpacking the Politics of Power-Sharing. <em>Nationalism and Ethnic Politics</em> [Special Issue]. <a href="https://www.tandfonline.com/doi/full/10.1080/13537113.2026.2622180" target="_blank">https://doi.org/10.1080/13537113.2026.2622180</a></p>
+    <p class="ref-item">[4] Bieber, F. (2017). Imposed Consociationalism: External Intervention and Power Sharing in Bosnia and Herzegovina. <em>Peacebuilding</em>, 5(1). <a href="https://www.tandfonline.com/doi/full/10.1080/21647259.2016.1264918" target="_blank">https://doi.org/10.1080/21647259.2016.1264918</a></p>
+    <p class="ref-item">[5] Gordy, E. (2022). The Dayton Peace Agreement in Bosnia and Herzegovina and Lessons for the Design of Political Institutions for a United Ireland. <em>Études Irlandaises</em>, 47(1), 1–24. Project MUSE. <a href="https://muse.jhu.edu/article/846816" target="_blank">https://muse.jhu.edu/article/846816</a></p>
+  </div>
+
+  <div class="ref-section">
+    <p class="ref-item">[6] Human Rights Watch (1995, October 15). Bosnia-Hercegovina: The Fall of Srebrenica and the Failure of UN Peacekeeping. <a href="https://www.hrw.org/report/1995/10/15/fall-srebrenica-and-failure-un-peacekeeping/bosnia-and-herzegovina" target="_blank">https://www.hrw.org/report/1995/10/15/...</a></p>
+    <p class="ref-item">[7] PBS NewsHour / AP (2025, July 11). Thousands gather in Srebrenica on 30th anniversary. <a href="https://www.pbs.org/newshour/world/thousands-gather-in-srebrenica-on-30th-anniversary-of-europes-only-acknowledged-genocide-since-wwii" target="_blank">https://www.pbs.org/newshour/...</a></p>
+    <p class="ref-item">[8] Amnesty International (2025, July 10). Bosnia and Herzegovina: 30th anniversary of Srebrenica massacre. <a href="https://www.amnesty.org/en/latest/news/2025/07/bosnia-and-herzegovina-30th-anniversary-of-srebrenica-massacre-a-painful-reminder-from-history/" target="_blank">https://www.amnesty.org/...</a></p>
+    <p class="ref-item">[9] Maksić, A. (2025, November 19). The Dayton Peace Accords at 30: An ugly peace that has prevented a return to war over Bosnia. <em>The Conversation</em>. <a href="https://theconversation.com/the-dayton-peace-accords-at-30-an-ugly-peace-that-has-prevented-a-return-to-war-over-bosnia-268424" target="_blank">https://theconversation.com/...</a></p>
+    <p class="ref-item">[10] EEAS (2022, December). EU Candidate Status for Bosnia and Herzegovina. <a href="https://www.eeas.europa.eu/eeas/eu-candidate-status-bosnia-and-herzegovina-message-people-and-tasking-politicians-0_en" target="_blank">https://www.eeas.europa.eu/...</a></p>
+  </div>
+
+  <div class="ref-section">
+    <p class="ref-item">[11] United Nations. About the 1995 Genocide in Srebrenica. <a href="https://www.un.org/en/observances/srebrenica-genocide-commemoration-day/about" target="_blank">https://www.un.org/...</a></p>
+    <p class="ref-item">[12] Chollet, D. (2005). <em>The Road to the Dayton Accords: A Study of American Statecraft</em>. New York: Palgrave Macmillan.</p>
+    <p class="ref-item">[13] International Crisis Group (1999). Is Dayton Failing?: Bosnia Four Years After the Peace Agreement. <a href="https://www.refworld.org/reference/countryrep/icg/1999/en/77973" target="_blank">https://www.refworld.org/...</a></p>
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
